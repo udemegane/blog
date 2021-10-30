@@ -1,17 +1,22 @@
 baseurl: https://example.com
 languageCode: en-us
-theme: stack
+theme: hugo-theme-stack
 paginate: 5
-title: Udemegane`s blog
+title: Example Site
 
 # Change it to your Disqus shortname before using
-disqusShortname: udemegane-hugo
+disqusShortname: hugo-theme-stack
+
 # GA Tracking ID
 googleAnalytics:
 
 # Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it, th, el
 DefaultContentLanguage: en
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: false
 
 permalinks:
     post: /p/:slug/
@@ -25,7 +30,7 @@ params:
     favicon:
 
     footer:
-        since: 2021
+        since: 2020
         customText:
 
     dateFormat:
@@ -33,19 +38,19 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 
-        subtitle: コンピューターグラフィックス系のあれこれを書く。多分。
+        emoji: 🍥
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
             local: true
-            src: img/myavatar.png
+            src: img/avatar.png
 
     article:
         math: false
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -116,6 +121,10 @@ params:
             repo: 
             clientID: 
             clientSecret: 
+        
+        cusdis:
+            host: 
+            id: 
 
     widgets:
         enabled:
@@ -132,7 +141,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site: udemegane
+            site:
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -165,26 +174,23 @@ menu:
           name: Home
           url: /
           weight: -100
-          pre: home
           params:
               ### For demonstration purpose, the home link will be open in a new tab
-              newTab: false
-              
+              newTab: true
+              icon: home
+    
+    social:
         - identifier: github
-          name: Github
-          url: https://github.com/udemegane
-          weight: -95
+          name: GitHub
+          url: https://github.com/CaiJimmy/hugo-theme-stack
           params:
-              icon: github
-              newTab: false
-
+            icon: brand-github
+            
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com/udemegane
-          weight: -97
+          url: https://twitter.com
           params:
-              icon: twitter
-              newTab: false              
+            icon: brand-twitter
 
 related:
     includeNewer: true
