@@ -2,7 +2,7 @@
 title: "babylonjsにおけるskeletal mesh animationの取り扱い"
 date: 2022-06-11T03:26:57+09:00
 draft: false
-tag:
+tags:
   - babylonjs
 categories:
   - Programming

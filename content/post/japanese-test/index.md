@@ -1,7 +1,7 @@
 ---
 title: "ブログ開設"
 date: 2021-10-30T03:37:11+09:00
-draft: true
+draft: false
 categories:
 ---
 
