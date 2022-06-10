@@ -1,16 +1,16 @@
 ---
 title: About(Work In Progress)
 description: About udemegane
-date: '2021-10-30'
+date: "2021-10-30"
 aliases:
   - about-me
   - contact
-lastmod: '2021-10-30'
+lastmod: "2022-6-10"
 menu:
-    main: 
-        weight: -90
-        params:
-          icon: user
+  main:
+    weight: -90
+    params:
+      icon: user
 ---
 
 # Who am I
@@ -18,41 +18,42 @@ menu:
 Name: Yu YANAGIDA\
 Handle: udemegane\
 Email: udemegane@gmail.com\
-Portfolio: [udemegane.net](https://udemegane.net)\
+Portfolio: WIP: [udemegane.net](https://udemegane.net)\
 (wanna be) Technical Artist
 
 # Interests
 
 - Real-time Rendering
 - Low-level graphics programming
-- Procedural Animation
-- Unreal Engine
-- ZBrush
-- Houdini
+- Procedural Modeling/Animation
 
 # Educations
 
-- 2018/04 - present: Waseda University, Computer Science and Engineering,
+- 04/2022 - present: Waseda University, Graduate School of Fundamental Science and Engineering
+  Master of Engineering, Computer Science and Communication Engineering, [Simo-Serra Lab](https://esslab.jp)
+
+- 04/2018 - 03/2022: Waseda University, Computer Science and Engineering,
   [Simo-Serra Lab](https://esslab.jp)
 
-# Research Areas
+- 04/2015 - 03/2018: Tokyo City University Todoroki senior high school
 
-- Computer Graphics
-- Differentiable Rendering
+# Language and DCC Tools
 
-# Skills and Works
+### Main (usually use)
 
-- Computer Graphics Programming
-  - Unreal Engine (Blueprint and UnrealC++)
-    - Procedual Animation: [works]()
-    - Niagara VFX: [works]()
-    - Complex Character logic: [works]()
-  - babylon.js: [works]()
-  - Low-level Graphics Programming: [works]()
-- DCC Tools
-  - Houdini
-    - KineFX: [works]()
-  - ZBrush
-    - Character Modeling/Sclupting: [works]()
-  - 3D Coat
-  - Rizom UV
+- Unreal Engine 4/5
+- babylon.js
+- Typescript
+- ZBrush
+- Maya
+
+### Sub (often use)
+
+- python
+- C++
+- Substance Painter
+
+# Works
+
+- 10/2022 [The Market of Light](https://historia.co.jp/tmol/) for Engineer
+- now prepareing...
