@@ -67,4 +67,8 @@ image: 2022-06-13-02-29-18.png
 ### おえかき等
 
 {{< figure src="2022-06-13-01-03-37.png" class="center" width="720" >}}
-{{< tweet user="udemegane" id="1376528591790297092" >}}
+
+{{< rawhtml >}}
+
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">mathilda <a href="https://t.co/rXXUBHHZ2f">pic.twitter.com/rXXUBHHZ2f</a></p>&mdash; うでメガネ (@udemegane) <a href="https://twitter.com/udemegane/status/1376528591790297092?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< rawhtml >}}
