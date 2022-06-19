@@ -9,7 +9,7 @@ image: 2022-06-13-02-29-18.png
 
 ## Babylon.js 製のポートフォリオサイト(作成中)
 
-**[開発記はこちら]({{< ref "/post/portfolio-progress1/index.md">}})**
+**[開発記はこちら]({{< relref "../portfolio-progress1/index.md">}})**
 
 **[デモサイトはこちら](https://udemegane.net)**
 
