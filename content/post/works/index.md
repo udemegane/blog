@@ -27,7 +27,7 @@ image: 2022-06-13-02-29-18.png
 
 ## UE5 Control Rig による Procedural Wall-Run System
 
-**[詳細はこちら]({{< ref "/post/procedural-wallrun/index.md" >}})**
+**[詳細はこちら]({{< relref "../procedural-wallrun/index.md" >}})**
 
 - 2021 年 5 月作成
   {{< figure src="procedural_wallrun_demo_AdobeExpress.gif" class="center" width="720" height="1280" >}}
@@ -58,7 +58,7 @@ image: 2022-06-13-02-29-18.png
 ---
 
 ## リアルタイム向け自作 3D キャラクター
-**[詳細はこちら]({{< ref "/post/maya-for-character/index.md" >}})**
+**[詳細はこちら]({{< relref "../maya-for-character/index.md" >}})**
 
 - 2022 年 5 月から現在にかけて作成中
 - 上記ポートフォリオサイトの一部として作成
