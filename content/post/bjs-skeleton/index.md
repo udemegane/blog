@@ -2,12 +2,12 @@
 title: "babylon.jsでボーン構造を抽象化し、取り回しを良くする"
 date: 2022-07-18T08:22:18+09:00
 draft: false
+image: 2022-07-18-08-45-36.png
 ---
 
 # Babylon.jsゆるほめLT会に登壇しました
 発表時タイトルは「bjs製の自作ポートフォリオサイト」みたいな感じだったが、**実質ボーン階層の抽象化の話になった。**
 ↓以下資料
-
 {{< rawhtml >}}
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/5MRDGK/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/udemegane/5MRDGK-2022-07-18-081558">babylon.jsゆるLT資料: ボーン階層を雑に扱いたい by @udemegane</a></div>
 {{< /rawhtml >}}
