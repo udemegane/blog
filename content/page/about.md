@@ -1,11 +1,11 @@
 ---
-title: About(Work In Progress)
+title: About
 description: About udemegane
 date: "2021-10-30"
 aliases:
   - about-me
   - contact
-lastmod: "2022-6-10"
+lastmod: "2022-7-10"
 menu:
   main:
     weight: -90
@@ -36,6 +36,12 @@ Portfolio: WIP: [udemegane.net](https://udemegane.net)\
   [Simo-Serra Lab](https://esslab.jp)
 
 - 04/2015 - 03/2018: Tokyo City University Todoroki senior high school
+
+# Work experience
+- 09/2020 - present: 株式会社ラディウス・ファイブ, インターン
+- 04/2021 - 11/2021: 株式会社ヒストリア, インターン
+- 08/2022 - 09/2022: ソニーグループ, インターン
+- 09/2922 - 09/2022: ピクシブ株式会社, インターン
 
 # Language and DCC Tools
 
