@@ -3,6 +3,9 @@ title: "FalcorでGPUパストレーサーの実装"
 date: 2023-01-06T05:28:58+09:00
 draft: false
 image: 2023-01-12-22-45-24.png
+categories: 
+  - GraphicsPrograming
+  - Falcor
 ---
 
 ## 概要

@@ -3,9 +3,10 @@ title: "ポートフォリオサイトにキャラクターを置きたいので
 date: 2022-06-20T00:30:14+09:00
 draft: false
 image: 2022-06-20-00-43-32.png
+categories:
+  - Maya
+  - DCCTools
 ---
-
-# ポートフォリオサイトにキャラクターを置きたいので作る ①
 
 タイトルの通り。Maya+3Dcoat+SubstancePainter+(Blender、.babylon への変換用)で作成する。
 ベースカラーしか使う予定ないので ZBrush の出番は無いが、もしかしたらしわのために使うかもしれん。

@@ -2,6 +2,9 @@
 title: "Nvidia Falcorの環境構築とWriting Shaderチュートリアルの実装"
 date: 2023-01-06T05:28:57+09:00
 draft: false
+categories:
+  - GraphicsPrograming
+  - Falcor
 ---
 
 ラスタライズとレイトレースを統合して扱えるｲｲｶﾝｼﾞﾚﾝﾀﾞﾘﾝｸﾞﾌﾚｰﾑﾜｰｸことFalcorを触ってみる記事です。

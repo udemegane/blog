@@ -2,10 +2,10 @@
 title: "babylonjsにおけるskeletal mesh animationの取り扱い"
 date: 2022-06-11T03:26:57+09:00
 draft: false
-tags:
-  - babylonjs
 categories:
-  - Programming
+  - Babylon.js
+categories:
+  - 
 ---
 
 babylonjs 上では、メッシュボーンは node を継承した bone クラスとして扱われる。node はシーンに具体的な存在をもつ(Transform を持つ実態)の最小単位なので、つまりボーンそのものがメッシュとかと同列の存在。

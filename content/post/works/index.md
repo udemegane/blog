@@ -15,7 +15,7 @@ image: 2022-06-13-02-29-18.png
 
 ## ReSTIRの実装
 
-記事執筆中...
+準備中...
 - 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
 - Nvidia Falcorを使用
 
@@ -29,7 +29,7 @@ image: 2022-06-13-02-29-18.png
 ---
 
 ## シンプルな自作アニメーションリターゲットシステム(for WebGL)
-**[詳細はこちら]({{< relref "../bjs-skeleton2/index.md" >}})**
+**[詳細はこちら]({{< relref "../bjs-skeleton/index.md" >}})**
 - 2023年1月作成
 ---
 
@@ -61,7 +61,7 @@ image: 2022-06-13-02-29-18.png
 
 ---
 
-## Babylon.js 製のポートフォリオサイト(作成中)
+## Babylon.js 製の3DCGインタラクティブWebサイト(作成中)
 
 **[開発記はこちら]({{< relref "../portfolio-progress1/index.md">}})**
 

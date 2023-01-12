@@ -2,6 +2,8 @@
 title: "UE5(EA) Control Rig による Procedural Wall-Run System"
 date: 2022-06-11T04:12:24+09:00
 draft: false
+categories:
+  - UnrealEngine
 ---
 
 ランタイムプロシージャルアニメーションに興味があったためUE5 Early Accessが公開を機に作成しました。

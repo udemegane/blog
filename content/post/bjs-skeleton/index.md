@@ -3,6 +3,8 @@ title: "babylon.jsでボーン構造を抽象化し、取り回しを良くす�
 date: 2022-07-18T08:22:18+09:00
 draft: false
 image: 2022-07-18-08-45-36.png
+categories:
+  - Babylon.js
 ---
 
 # Babylon.jsゆるほめLT会に登壇しました
