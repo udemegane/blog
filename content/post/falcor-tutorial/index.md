@@ -4,7 +4,6 @@ date: 2023-01-06T05:28:57+09:00
 draft: false
 ---
 
-# Nvidia Falcorの環境構築とWriting Shaderチュートリアルの実装
 ラスタライズとレイトレースを統合して扱えるｲｲｶﾝｼﾞﾚﾝﾀﾞﾘﾝｸﾞﾌﾚｰﾑﾜｰｸことFalcorを触ってみる記事です。
 環境構築に関しては先駆者もそれなりにいますがVisual Studio以外でのビルドをしている人はあまり見かけないのでVSCodeでビルドしました。  
 問題はチュートリアルで、**ドキュメントがめっちゃ古くて書いてある通りやってもコンパイルエラー吐くんですよね。**　多分2~3年間更新されていないのでチュートリアル通りに進めても動きません。CLion君が優秀でこのコード嘘じゃんね！！って速攻教えてくれたので助かった...  
@@ -20,7 +19,7 @@ draft: false
 以前、[submoduleのパスがgithubではなくnvidia内部のgitlabに向いている](https://github.com/NVIDIAGameWorks/Falcor/pull/327)ときがありましたが、今後またそのような事が起きてもそのサブモジュールに相当するものを手動でgithubからcloneすれば一応動くと思います。  
 VSCodeの場合、`setup.bat`を実行し、presetを`windows-ninja-msvc-d3d12`にしてビルドします。  
 [色不異空氏の記事](https://shikihuiku.github.io/post/falcor_getting_started/)のように、最初はFalcorTestをビルドすると良さそうです。　　
-![](2023-01-11-18-19-52.png)
+![](2023-01-12-20-34-58.png)
 Ryzen9 3900Xでビルドしましたが、そこまで大きなフレームワークではないのでコーヒー淹れる間に終わるでしょう。
 
 ---
@@ -82,10 +81,10 @@ target_source_group(WireframePass "RenderPasses")
 次にC++側の作業です。先ほどのスクリプトによって大枠は組まれています。  
 `execute()`以外はチュートリアルに沿って進めれば問題ありません。
 
-コンストラクタ、reflect()、setScene()を実装します。
+コンストラクタ、`reflect()`、`setScene()`を実装します。
 
-execute()に使われているScene::Renderflagsは現行バージョンでは廃止されて存在しません。ここをチュートリアルとは変える必要があります。
-Renderflagsは無くなりましたが作成したRasterStateの情報は渡したいので、rasterize()に直接渡します。
+`execute()`に使われている`Scene::Renderflags`は現行バージョンでは廃止されて存在しません。ここをチュートリアルとは変える必要があります。
+Renderflagsは無くなりましたが作成したRasterStateの情報は渡したいので、`rasterize()`に直接渡します。
 
 ```C++
 void WireframePass::execute(RenderContext *pRenderContext, const RenderData &renderData) {

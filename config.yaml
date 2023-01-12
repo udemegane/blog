@@ -1,17 +1,17 @@
-baseurl: https://example.com
+baseurl: https://blog.udemegane.net
 languageCode: en-us
 theme: stack
 paginate: 5
 title: Udemegane`s blog
 
 # Change it to your Disqus shortname before using
-disqusShortname: udemegane-hugo
+disqusShortname: udemeganes-blog
 # GA Tracking ID
 googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
-DefaultContentLanguage: en
+DefaultContentLanguage: ja
 
 permalinks:
   post: /p/:slug/
@@ -161,15 +161,25 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
   main:
+
     - identifier: home
       name: Home
-      url: https://udemegane.net
+      url: /
       weight: -100
-      pre: home
+      ### pre: home
       params:
+        icon: home
         ### For demonstration purpose, the home link will be open in a new tab
         newTab: false
 
+    - identifier: works
+      name: Works
+      url: /p/works/
+      weight: -99
+      params:
+        icon: hash
+        newTab: false
+      
     - identifier: github
       name: Github
       url: https://github.com/udemegane

@@ -12,54 +12,67 @@ menu:
     params:
       icon: user
 ---
+### English version is [here]({{< relref "./about.en.md" >}})
+## Who am I
 
-# Who am I
-
-Name: Yu YANAGIDA\
-Handle: udemegane\
+ハンドルネーム: udemegane\
 Email: udemegane@gmail.com\
-Portfolio: WIP: [udemegane.net](https://udemegane.net)\
-(wanna be) Technical Artist
+Twitter: @udemegane\
+Github: udemegane
 
-# Interests
+---
+## 興味ある領域
 
 - Real-time Rendering
-- Low-level graphics programming
-- Procedural Modeling/Animation
+- Graphics Pipeline
+- Gane Engine Archtecture
+- Procedural Animation
 
-# Educations
+---
+## 学歴
 
-- 04/2022 - present: Waseda University, Graduate School of Fundamental Science and Engineering
-  Master of Engineering, Computer Science and Communication Engineering, [Simo-Serra Lab](https://esslab.jp)
+- 2022年4月 - 現在: [早稲田大学大学院 基幹理工学研究科 情報理工・情報通信選考](https://www.waseda.jp/fsci/about/departments/fundamental/) [シモセラ研究室](https://esslab.jp)
 
-- 04/2018 - 03/2022: Waseda University, Computer Science and Engineering,
-  [Simo-Serra Lab](https://esslab.jp)
+- 2018年4月 - 2022年3月: [早稲田大学 基幹理工学部 情報理工学科](https://www.waseda.jp/fsci/about/departments/fundamental/) [シモセラ研究室](https://esslab.jp)
 
-- 04/2015 - 03/2018: Tokyo City University Todoroki senior high school
+- 2015年4月 - 2018年3月: 東京都市大学等々力高等学校
 
-# Work experience
-- 09/2020 - present: 株式会社ラディウス・ファイブ, インターン
-- 04/2021 - 11/2021: 株式会社ヒストリア, インターン
-- 08/2022 - 09/2022: ソニーグループ, インターン
-- 09/2922 - 09/2022: ピクシブ株式会社, インターン
+---
+## 就労経験
+### 季節インターン
+- 2022年9月: ピクシブ株式会社, インターン
+- 2022年9月: コーエーテクモゲームス, インターン
+- 2022年8月~9月: ソニーグループ, インターン
 
-# Language and DCC Tools
+### 長期インターン
+- 2021年4月~11月 株式会社ヒストリア, インターン
+- 2020年9月~: 株式会社ラディウス・ファイブ,　インターン
 
-### Main (usually use)
+---
+## 使用する言語、ツールなど
 
+### ある程度の経験がある
 - Unreal Engine 4/5
 - babylon.js
+- Nvidia Falcor
 - Typescript
-- ZBrush
-- Maya
-
-### Sub (often use)
-
-- python
 - C++
+- ZBrush
+
+### 多少の経験がある
+- Maya
+- Python
+- C#
 - Substance Painter
+- Houdini
 
-# Works
+### (大学の授業等で)触ったことはある
+- C
+- Java
+- OCaml
+- Assembly
 
+---
+## 成果物など
 - 10/2022 [The Market of Light](https://historia.co.jp/tmol/) for Engineer
-- now prepareing...
+- [こちらのページ](({{< relref "../post/works/index.md" >}}))

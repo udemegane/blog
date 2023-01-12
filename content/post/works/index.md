@@ -3,26 +3,34 @@ title: "主な制作物まとめ"
 date: 2222-01-01T04:18:14+09:00
 draft: false
 image: 2022-06-13-02-29-18.png
----
 
+---
 # ※工事中！！
 
-## Babylon.js 製のポートフォリオサイト(作成中)
-
-**[開発記はこちら]({{< relref "../portfolio-progress1/index.md">}})**
-
-**[デモサイトはこちら](https://udemegane.net)**
-
-- 2022 年 4 月から現在にかけて作成中
-
+## GPUパストレーサー
+**[詳細はこちら]({{< relref "../pathtrace/index.md" >}})**
+- 2022年に作成　ライブラリにはNvidia falcorを使用
+  {{< figure src="2023-01-13-01-42-19.png" class="center" width="720" height="1280" >}}
 ---
 
-## The Market of Light
+## ReSTIRの実装
 
-- 2021 年に、エンジニアのインターン生として開発に参加
+記事執筆中...
+- 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
+- Nvidia Falcorを使用
+
+## The Market of Light (steamのゲーム)
+
+- UE5製ゲーム
+- 2021 年に、エンジニアの一人として開発
   {{< figure src="2022-06-13-01-10-26.png" class="center" width="720" >}}
   {{< steam 1691400 >}}
 
+---
+
+## シンプルな自作アニメーションリターゲットシステム(for WebGL)
+**[詳細はこちら]({{< relref "../bjs-skeleton2/index.md" >}})**
+- 2023年1月作成
 ---
 
 ## UE5 Control Rig による Procedural Wall-Run System
@@ -43,28 +51,25 @@ image: 2022-06-13-02-29-18.png
 
 ---
 
-## UE4 で作成したロボットゲーム
-
-- 2018 年 8 月~10 月に作成
-  {{< rawhtml >}}
-
-<video width=100% controls autoplay>
-    <source src="/videos/ue4_robot_captcha.mp4" type="video/mp4">
-    Your browser does not support the video tag.  
-</video>
-
-{{< /rawhtml >}}
-
----
-
 ## リアルタイム向け自作 3D キャラクター
 **[詳細はこちら]({{< relref "../maya-for-character/index.md" >}})**
 
-- 2022 年 5 月から現在にかけて作成中
-- 上記ポートフォリオサイトの一部として作成
+- 2022 年 5 月
+- ポートフォリオサイト(未完)の一部として作成
 
   {{< figure src="2022-06-13-03-04-12.png" class="center" width="720" >}}
 
+---
+
+## Babylon.js 製のポートフォリオサイト(作成中)
+
+**[開発記はこちら]({{< relref "../portfolio-progress1/index.md">}})**
+
+**[デモサイトはこちら](https://udemegane.net)**
+
+- 2022 年 4 月~
+
+  {{< figure src="2022-06-13-02-29-18.png" class="center" width="720" >}}
 ---
 
 ## その他
@@ -76,4 +81,4 @@ image: 2022-06-13-02-29-18.png
 {{< rawhtml >}}
 
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">mathilda <a href="https://t.co/rXXUBHHZ2f">pic.twitter.com/rXXUBHHZ2f</a></p>&mdash; うでメガネ (@udemegane) <a href="https://twitter.com/udemegane/status/1376528591790297092?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{{< rawhtml >}}
+{{< /rawhtml >}}
