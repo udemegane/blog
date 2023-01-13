@@ -34,7 +34,7 @@ params:
 
   sidebar:
     emoji:
-    subtitle: コンピューターグラフィックスが好きな大学生のの個人開発日記。
+    subtitle: コンピューターグラフィックスが好きな学生の個人開発日記。
     avatar:
       enabled: true
       local: true
