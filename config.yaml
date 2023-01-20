@@ -174,7 +174,7 @@ menu:
 
     - identifier: works
       name: Works
-      url: /p/works/
+      url: /p/主な制作物まとめ/
       weight: -99
       params:
         icon: hash
