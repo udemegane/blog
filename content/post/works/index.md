@@ -16,7 +16,7 @@ image: 2022-06-13-02-29-18.png
 ## ReSTIRの再現実装🚧
 
 **[記事その1]({{< relref "../restir/index.md" >}})**
-**[記事その2](<!--{{< relref "../restir2/index.md" >}}-->)**
+**[記事その2]()**
 - 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
 - Nvidia Falcorを使用
  {{< figure src="2023-01-20-19-59-31.png" class="center" width="720" height="1280" >}}
@@ -35,7 +35,7 @@ image: 2022-06-13-02-29-18.png
 ## シンプルな自作アニメーションリターゲットシステム(for WebGL)🚧
 **[記事その1]({{< relref "../bjs-skeleton/index.md" >}})**
 **[記事その2]({{< relref "../bjs-skeleton2/index.md" >}})**
-**[記事その3](<!--{{< relref "../bjs-skeleton2/index.md" >}}-->)**
+**[記事その3]()**
 - 2023年1月作成
 ---
 
