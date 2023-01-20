@@ -1,5 +1,5 @@
 ---
-title: About(Work In Progress)
+title: About
 description: About udemegane
 date: "2021-10-30"
 aliases:

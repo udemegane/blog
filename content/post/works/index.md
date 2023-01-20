@@ -8,16 +8,18 @@ image: 2022-06-13-02-29-18.png
 # ※工事中！！
 
 ## GPUパストレーサー
-**[詳細はこちら]({{< relref "../pathtrace/index.md" >}})**
+**[記事はこちら]({{< relref "../pathtrace/index.md" >}})**
 - 2022年に作成　ライブラリにはNvidia falcorを使用
   {{< figure src="2023-01-13-01-42-19.png" class="center" width="720" height="1280" >}}
 ---
 
 ## ReSTIRの実装
 
-準備中...
+**[記事その1]({{< relref "../restir/index.md" >}})**
+**[記事その2]({{< relref "../restir2/index.md" >}})**
 - 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
 - Nvidia Falcorを使用
+ {{< figure src="2023-01-20-19-59-31.png" class="center" width="720" height="1280" >}}
 
 ## The Market of Light (steamのゲーム)
 
@@ -44,7 +46,7 @@ image: 2022-06-13-02-29-18.png
 
 ## デジタルフィギュア
 
-**[詳細はこちら](https://blog.misw.jp/entry/2020/12/24/000000)**
+**[記事はこちら](https://blog.misw.jp/entry/2020/12/24/000000)**
 
 - 2020 年 10 月に作成
   {{< figure src="2022-06-13-01-05-34.png" class="center" width="720" >}}
@@ -52,7 +54,7 @@ image: 2022-06-13-02-29-18.png
 ---
 
 ## リアルタイム向け自作 3D キャラクター
-**[詳細はこちら]({{< relref "../maya-for-character/index.md" >}})**
+**[記事はこちら]({{< relref "../maya-for-character/index.md" >}})**
 
 - 2022 年 5 月
 - ポートフォリオサイト(未完)の一部として作成
@@ -63,7 +65,7 @@ image: 2022-06-13-02-29-18.png
 
 ## Babylon.js 製の3DCGインタラクティブWebサイト(作成中)
 
-**[開発記はこちら]({{< relref "../portfolio-progress1/index.md">}})**
+**[記事はこちら]({{< relref "../portfolio-progress1/index.md">}})**
 
 **[デモサイトはこちら](https://udemegane.net)**
 
