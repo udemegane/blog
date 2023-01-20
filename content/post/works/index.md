@@ -13,13 +13,15 @@ image: 2022-06-13-02-29-18.png
   {{< figure src="2023-01-13-01-42-19.png" class="center" width="720" height="1280" >}}
 ---
 
-## ReSTIRの実装
+## ReSTIRの再現実装🚧
 
 **[記事その1]({{< relref "../restir/index.md" >}})**
-**[記事その2]({{< relref "../restir2/index.md" >}})**
+**[記事その2](<!--{{< relref "../restir2/index.md" >}}-->)**
 - 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
 - Nvidia Falcorを使用
  {{< figure src="2023-01-20-19-59-31.png" class="center" width="720" height="1280" >}}
+---
+
 
 ## The Market of Light (steamのゲーム)
 
@@ -30,14 +32,16 @@ image: 2022-06-13-02-29-18.png
 
 ---
 
-## シンプルな自作アニメーションリターゲットシステム(for WebGL)
-**[詳細はこちら]({{< relref "../bjs-skeleton/index.md" >}})**
+## シンプルな自作アニメーションリターゲットシステム(for WebGL)🚧
+**[記事その1]({{< relref "../bjs-skeleton/index.md" >}})**
+**[記事その2]({{< relref "../bjs-skeleton2/index.md" >}})**
+**[記事その3](<!--{{< relref "../bjs-skeleton2/index.md" >}}-->)**
 - 2023年1月作成
 ---
 
 ## UE5 Control Rig による Procedural Wall-Run System
 
-**[詳細はこちら]({{< relref "../procedural-wallrun/index.md" >}})**
+**[記事はこちら]({{< relref "../procedural-wallrun/index.md" >}})**
 
 - 2021 年 5 月作成
   {{< figure src="procedural_wallrun_demo_AdobeExpress.gif" class="center" width="720" height="1280" >}}
@@ -63,7 +67,7 @@ image: 2022-06-13-02-29-18.png
 
 ---
 
-## Babylon.js 製の3DCGインタラクティブWebサイト(作成中)
+## Babylon.js 製の3DCGインタラクティブWebサイト(作成中)🚧
 
 **[記事はこちら]({{< relref "../portfolio-progress1/index.md">}})**
 
