@@ -25,15 +25,15 @@ Github: udemegane
 
 - Real-time Rendering
 - Graphics Pipeline
-- Gane Engine Archtecture
+- Game Engine Archtecture
 - Procedural Animation
 
 ---
 ## 学歴
 
-- 2022年4月 - 現在: [早稲田大学大学院 基幹理工学研究科 情報理工・情報通信選考](https://www.waseda.jp/fsci/about/departments/fundamental/) [シモセラ研究室](https://esslab.jp)
+- 2022年4月 - 現在: [早稲田大学大学院 基幹理工学研究科 情報理工・情報通信専攻](https://www.waseda.jp/fsci/about/departments/fundamental/) [シモセラ研究室](https://esslab.jp)
 
-- 2018年4月 - 2022年3月: [早稲田大学 基幹理工学部 情報理工学科](https://www.waseda.jp/fsci/about/departments/fundamental/) [シモセラ研究室](https://esslab.jp)
+- 2018年4月 - 2022年3月: [早稲田大学 基幹理工学部 情報理工学科](https://www.waseda.jp/fsci/about/departments/fundamental/)
 
 - 2015年4月 - 2018年3月: 東京都市大学等々力高等学校
 
@@ -54,12 +54,12 @@ Github: udemegane
 ### ある程度の経験がある
 - Unreal Engine 4/5
 - babylon.js
-- Nvidia Falcor
 - Typescript
 - C++
 - ZBrush
 
 ### 多少の経験がある
+- Nvidia Falcor
 - Maya
 - Python
 - C#
@@ -74,5 +74,5 @@ Github: udemegane
 
 ---
 ## 成果物など
-- 10/2022 [The Market of Light](https://historia.co.jp/tmol/) for Engineer
+- 2022年9月 [The Market of Light](https://historia.co.jp/tmol/) （サポートエンジニアとして）
 - [こちらのページ](({{< relref "../post/works/index.md" >}}))
