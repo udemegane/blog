@@ -2,6 +2,7 @@
 title: "UE5(EA) Control Rig による Procedural Wall-Run System"
 date: 2022-06-11T04:12:24+09:00
 draft: false
+image: procedural_wallrun_demo_AdobeExpress.gif
 categories:
   - UnrealEngine
 ---

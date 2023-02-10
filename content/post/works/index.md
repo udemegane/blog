@@ -19,7 +19,7 @@ image: 2022-06-13-02-29-18.png
 **[記事その2]()**
 - 2020年のNvidiaの論文 Reservoir-based Spatio temproal Importance Resampling に基づく高速なレイトレーシング手法
 - Nvidia Falcorを使用
- {{< figure src="2023-01-20-19-59-31.png" class="center" width="720" height="1280" >}}
+ {{< figure src="2023-02-11-04-05-33.png" class="center" width="720" height="1280" >}}
 ---
 
 
