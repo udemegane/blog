@@ -2,7 +2,7 @@
 title: "ReSTIRを実装する-その2"
 date: 2023-01-20T22:00:41+09:00
 draft: false
-image: 2023-02-11-03-46-30.png
+image: 2023-02-11-05-12-09.png
 categories: 
   - GraphicsPrograming
   - Falcor
@@ -138,7 +138,7 @@ if (prevPixel != -1)
 ```
 
 ### Spatial Reuse
-適当に現ピクセルの近傍から幾つかのサンプルを選択してリザーバーの結合を行います。元実装は角度や深度でさらに絞り込んでいたような気がしましたが完全に忘れていました。暇なときに追加します。
+適当に現ピクセルの近傍から幾つかのピクセルを選択してリザーバーの結合を行います。深度が±5%以内に無い時はスキップします。
 ```c++
 // WRSによって得られた現フレームのリザーバー
 StructuredBuffer<RISReservoir> intermediateReservoir;
@@ -152,12 +152,19 @@ crf.update(r);
 
 for (uint i = 0; i < kSpatialNeigborsNum; i++)
 {
+    float rand = rand();
     float radius = kSampleRadius * rand;
     float angle = 2.0f * M_PI * frac(sin(gFrameCount * rand));
     uint2 neighborPos = {
         clamp(pixel.x + uint(radius * cos(angle)), 0, screen.x),
         clamp(pixel.y + uint(radius * sin(angle)), 0, screen.y)
     };
+
+    // Skip loop when neighbor pixel is too far.
+    if (gDepth[pixel] > 1.05 * gDepth[neighborPos] || gDepth[pixel] < 0.95 * gDepth[neighborPos])
+    {
+        continue;
+    }
 
     {
         RISReservoir rn = intermediateReservoir[neighborPos.x + screen.x * neighborPos.y];
@@ -176,26 +183,23 @@ r = crf.getCombinedReservoir();
 
 ## 結果
 以下のようになりました。
-![何もなし](2023-02-11-03-45-50.png)
 
-![WRS](2023-02-11-03-46-11.png)
+---
 
-![WRS+TemporalReuse](2023-02-11-03-46-30.png)
+![何もなし](2023-02-11-04-56-26.png)
 
-![WRS+SpatialReuse](2023-02-11-03-47-00.png)
+![WRS](2023-02-11-04-57-35.png)
 
-あれ...?SpatialReuseしたら逆にノイズ増えてね..?
+![WRS+TemporalReuse](2023-02-11-05-02-26.png)
 
-..
+![WRS+SpatialReuse](2023-02-11-05-03-30.png)
 
-...
+(あれ...?SpatialReuseしたら逆にノイズ増えてね..?)
+![ReSTIR](2023-02-11-05-04-12.png)
 
-......
+---
 
-![ReSTIR](2023-02-11-03-49-53.png)
+Spatial Reuseが微妙にうまく行ってない気もしますが比べてみるとかなりノイズは減っています。
+![](2023-02-11-05-12-09.png)
 
-<font size="7">＼(^o^)／ｵﾜﾀ</font>
-
-いや、マジでなんでこうなるの...?
-SpatialReuse時に深度によるクランプなどをさぼった影響はあると思いますが真っ黒になるのは何故?ウェイト修正をやめると真っ黒にならないのでそこの実装が何かおかしそうです。次回はこれを直します。
-![ReSTIR(ウェイト修正無し)](2023-02-11-03-54-52.png)
+半透明の処理をサボっていたりとちょくちょく穴はありますがとりあえずある程度は元論文の再現ができました。次は何しようかなぁ
