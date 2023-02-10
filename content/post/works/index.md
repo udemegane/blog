@@ -13,7 +13,7 @@ image: 2022-06-13-02-29-18.png
   {{< figure src="2023-01-13-01-42-19.png" class="center" width="720" height="1280" >}}
 ---
 
-## ReSTIRの再現実装🚧
+## ReSTIRの再現実装
 
 **[記事その1]({{< relref "../restir/index.md" >}})**
 **[記事その2]()**
