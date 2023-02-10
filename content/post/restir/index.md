@@ -104,6 +104,8 @@ WRSだけでも結構ノイズが減っています。すごいですね。
 フレームレートが210FPS->150FPSと結構がっつり減っていますが、これは上記の実装の場合、乱数生成の影響がかなり大きいです。仮に乱数計算コスト０だとFPSは180ぐらいになります。  
 Temporal/Spatial reuseすると乱数の出番がもっと増えるので先に乱数をテクスチャから読み込むように替えたほうが良さそうです。  
 
+続きの記事は[こちら]({{< relref "../restir2/index.md" >}})
+
 ReSTIRは直接照明計算アルゴリズムでしたが、既に発表から３年ほど経っているのでGIを計算できる派生手法がいくつかあります。  
 一番新しいのは2022年のSiggraphで出た[Generalized Resampled Importance Sampling](https://research.nvidia.com/publication/2022-07_generalized-resampled-importance-sampling-foundations-restir)かな？  
 ReSTIRの実装を終えたらこっちもやってみたいです。
