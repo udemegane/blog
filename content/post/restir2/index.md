@@ -14,7 +14,8 @@ SpatioTemporalReuseのアルゴリズム概要は以下のようになってい�
 {{< figure src="2023-02-11-02-33-00.png" class="center" width="720" >}}
 これを見ると、SpatialReuse時にそのフレームで計算した近傍のReservoirを参照しているので、一つのシェーダーでReSTIRを実行することができないとわかります。今回はWRSを行うパスとSpatioTemporalReuseを行うパスに分けました。あとついでにInline Raytracingしてみました。**めっちゃ便利ですねこれ。**  
 以下要点だけ簡単な解説です。  
-ソースコードはここです: https://github.com/udemegane/Falcor-playground/tree/main/ReSTIR
+ソースコードはここです: https://github.com/udemegane/Falcor-playground/tree/main/ReSTIR  
+また、前回参考にした記事に加えて、[こちら](https://gamehacker1999.github.io/posts/restir/)も参考にしました。
 
 ## Reservoirとその結合
 リザーバーを前回より少し変更して以下のようにしています。
