@@ -196,6 +196,8 @@ r = crf.getCombinedReservoir();
 ![WRS+SpatialReuse](2023-02-11-05-03-30.png)
 
 (あれ...?SpatialReuseしたら逆にノイズ増えてね..?)
+追記：公式のRTXDIを使用して同じシーンを試したところ、やっぱりspatial reuseしたらノイズが増えました。
+Spatial Reuseは場合によっては分散が増す結果となるようです。
 ![ReSTIR](2023-02-11-05-04-12.png)
 
 ---
