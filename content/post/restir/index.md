@@ -20,7 +20,7 @@ ReSTIRとは、Reservoir-based Spatio-Temporal Importance Resamplingの略で、
 <br>
 
 ソースコードはこちら↓  
-https://github.com/udemegane/Falcor-playground/tree/main/ReSTIR
+https://github.com/udemegane/Falcor-playground/tree/main/5.2/ReSTIR
 
 ---
 

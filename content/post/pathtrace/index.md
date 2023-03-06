@@ -13,7 +13,7 @@ categories:
 Falcorそのものの使い方を知りたいという目的もあるので、標準で提供されているMinimal Pathtracerを~~写経~~参考にして実装したためMinimalPathTracerとやっていることはほぼ同じです。
 
 ソースコードは以下にあります。
-https://github.com/udemegane/Falcor-playground/tree/main/TinyPathTracer
+https://github.com/udemegane/Falcor-playground/tree/main/5.2/TinyPathTracer
 
 処理の流れとしては基本的にはナイーブなパストレーシングをしていますが、ちょっと変わっているのは**幾何光源**にはNEEを実行、マテリアルのEmissiveは**レイ衝突時に寄与を計算**していることです。
 FalcorはラスタライズとHWレイトレースを統合して扱えるフレームワークですが、リアルタイムレンダリングにおいてマテリアルのEmissive値はSSGI等を使えばScreenSpace上ではある程度真面目に光源として計算できますが基本的にニセ光源なんですよね。
@@ -97,4 +97,4 @@ rayData.radiance += rayData.throughput * evalDirectAnalytic(sd, bsdf, rayData.sg
 参考にしたminimalPathTracerがこうなってたのではぇ～こうやるんかと思いながら書きましが多分EmissiveもNEEできる気がするんですよね。EmmisiveLightHelperみたいな名前のヘッダファイルあったし。
 やり方わかったら修正します。
 あとは乱数生成機の挙動とかもまだちゃんと見てないんですよね。体感ですがそこそこ重たいんですけど何してるんでしょうこれ(Source/Falcor/Utils/Sampling/SampleGenerator.h　あたり)  
-その他処理の内容はここ見ればすぐわかると思います。(https://github.com/udemegane/Falcor-playground/blob/main/TinyPathTracer/TinyPathTracer.rt.slang)
+その他処理の内容はここ見ればすぐわかると思います。(https://github.com/udemegane/Falcor-playground/blob/main/5.2/TinyPathTracer/TinyPathTracer.rt.slang)
