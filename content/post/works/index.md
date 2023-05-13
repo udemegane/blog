@@ -6,14 +6,19 @@ image: 2022-06-13-02-29-18.png
 
 ---
 # ※工事中！！
+## ReSTIR GIの実装(Faclor 6.0)
+**[詳細はこちら](https://github.com/udemegane/Falcor/tree/ReSTIR_GI_Demo)**
+- [ReSTIR GI: Path Resampling for Real-Time Path Tracing](https://research.nvidia.com/publication/2021-06_restir-gi-path-resampling-real-time-path-tracing)に少し手を加えたもの
+ {{< figure src="2023-05-13-20-30-11.png" class="center" width="720" height="1280" >}}
+---
 
-## GPUパストレーサー
+## GPUパストレーサー(Faclor 5.2)
 **[記事はこちら]({{< relref "../pathtrace/index.md" >}})**
 - 2022年に作成　ライブラリにはNvidia falcorを使用
   {{< figure src="2023-01-13-01-42-19.png" class="center" width="720" height="1280" >}}
 ---
 
-## ReSTIRの再現実装
+## ReSTIRの再現実装(Faclor 5.2)
 
 **[記事その1]({{< relref "../restir/index.md" >}})**
 **[記事その2]()**
