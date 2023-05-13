@@ -99,7 +99,7 @@ image: 2022-06-13-02-29-18.png
 
 ### おえかき等
 
-{{< figure src="2022-06-13-01-03-37.png" class="center" width="720" >}}
+{{< figure src="2022-06-13-01-03-37.png" class="center" width="360" >}}
 
 {{< rawhtml >}}
 
