@@ -56,7 +56,7 @@ $$
 **ここわかりにくいのであとで加筆**
 
 $$
-w_i = m_i(x_i)\frac{\hat{p}(x_i)}{p_i{x_i}} 
+w_i = m_i(x_i)\frac{\hat{p}(x_i)}{p_i{x_i}}
 $$
 
 ### 異なる分布,異なるドメインからのRIS(GRIS)
@@ -75,7 +75,7 @@ $$
 
 そのため異なるドメイン/異なるPDFからのリサンプリングをするときの重みは、同一ドメイン/異なるPDFからのリサンプリング重みのサンプルをシフトマッピング$T$で変換することを考えて、以下のように表せます。
 $$
-w_i = m_i(T_i(x_i))\frac{\hat{p}(T_i(x_i))}{p_i(x_i)}\lvert{\frac{\partial{T_i}}{\partial{x_i}}}\rvert
+w_i = m_i(T_i(x_i))\frac{\hat{p}(T_i(x_i))}{p_i(x_i)}\lvert\frac{\partial{T_i}}{\partial{x_i}}\rvert
 $$
 
 さらに、この$w_i$を用いてサンプルから$x_s$を選んだ時、候補サンプルは$x_s$ではなく$T_i(x_s)$になります。  

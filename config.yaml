@@ -2,7 +2,7 @@ baseurl: https://blog.udemegane.net
 languageCode: en-us
 theme: stack
 paginate: 5
-title: Udemegane`s blog
+title: Udemegane の blog
 
 # Change it to your Disqus shortname before using
 disqusShortname: udemeganes-blog
@@ -34,16 +34,16 @@ params:
 
   sidebar:
     emoji:
-    subtitle: コンピューターグラフィックスが好きな学生の個人開発日記。
+    subtitle: 絵と計算機が好き
     avatar:
       enabled: true
       local: true
       src: img/myavatar.png
 
   article:
-    math: false
+    math: true
     toc: true
-    readingTime: true
+    readingTime: false
     license:
       enabled: false
       default: Licensed under CC BY-NC-SA 4.0
